@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bayang / Darklyy のポートフォリオ。Webデザイン、フロントエンド開発、横浜をテーマにした作品を紹介します。">
+  <meta name="theme-color" content="#07191c">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Darklyy — Portfolio">
+  <meta property="og:description" content="Ideas shaped into digital experiences.">
+  <meta property="og:image" content="img/ogp.png">
+  <title>Darklyy — Portfolio</title>
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へスキップ</a>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="トップへ">D<span>·</span></a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span><span class="sr-only">メニュー</span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="メインナビゲーション">
+      <a href="#about"><span>01</span> About</a>
+      <a href="#works"><span>02</span> Works</a>
+      <a href="#skills"><span>03</span> Skills</a>
+      <a href="#contact"><span>04</span> Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-image" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow reveal">PORTFOLIO · 2026</p>
+        <h1 id="hero-title" class="reveal"><span>Designing</span><br>what comes next.</h1>
+        <p class="hero-copy reveal">アイデアを、伝わるデザインと動く体験へ。<br>Web design &amp; front-end development by Darklyy.</p>
+        <a class="round-link reveal" href="#works" aria-label="作品を見る">
+          <span>View works</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+      <p class="hero-side" aria-hidden="true">YOKOHAMA · JAPAN</p>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-head reveal">
+        <p class="section-number">01</p>
+        <h2>About</h2>
+        <p>私について</p>
+      </div>
+      <div class="about-grid">
+        <p class="about-lead reveal">Good design feels<br><em>clear, human,</em><br>and a little unexpected.</p>
+        <div class="about-copy reveal">
+          <p>はじめまして、バヤン（Darklyy）です。Webデザインとフロントエンド開発を学びながら、見る人の記憶に残るデジタル体験をつくっています。</p>
+          <p>美しさだけでなく、読みやすさ、使いやすさ、動きの心地よさまで考えること。小さなアイデアを丁寧に育て、形にすることを大切にしています。</p>
+          <dl class="facts">
+            <div><dt>Based in</dt><dd>Yokohama, Japan</dd></div>
+            <div><dt>Focus</dt><dd>Web / UI / Front-end</dd></div>
+            <div><dt>Available for</dt><dd>Creative projects</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="section works" id="works">
+      <div class="section-head reveal">
+        <p class="section-number">02</p>
+        <h2>Selected works</h2>
+        <p>制作実績</p>
+      </div>
+
+      <article class="featured-work reveal">
+        <div class="video-wrap" >
+          <video controls muted playsinline preload="metadata" poster="css/images/night-view.jpg">
+            <source src="img/MinatoMiraiSuggestion.mp4" type="video/mp4">
+            お使いのブラウザは動画を再生できません。
+          </video>
+        </div>
+        <div class="work-meta">
+          <p class="work-index">PROJECT 01 / FEATURED</p>
+          <h3>Minato Mirai<br>City Guide</h3>
+          <p>横浜・みなとみらいの魅力を、映像と夜景のビジュアルで紹介する観光プロジェクト。</p>
+          <ul><li>Direction</li><li>Design</li><li>Front-end</li></ul>
+        </div>
+      </article>
+
+      <div class="work-grid">
+        <div class="work-card reveal" type="button" data-image="img/JIKOU.png" data-title="About Me — First Design"  >
+          <span class="card-image"><img src="img/JIKOU.png" alt="自己紹介ページのデザイン" loading="lazy"></span>
+          <span class="card-top"><b>02</b><i>Web Design</i></span>
+          <span class="card-title">About Me — First Design</span>
+          <a href="../chapter4/Myself/Myselfn1.html" class="link-button" target="_blank">
+            Visit Website ------>
+          </a>
+        </div>
+        <div class="work-card reveal" type="button" data-image="img/jikou2.png" data-title="About Me — Part 02">
+          <span class="card-image"><img src="img/jikou2.png" alt="自己紹介ページ第2版のデザイン" loading="lazy"></span>
+          <span class="card-top"><b>03</b><i>UI / Coding</i></span>
+          <span class="card-title">About Me — Part 02</span>
+          <a href="../chapter4/inst.html" class="link-button" target="_blank">
+            Visit Website ------>
+          </a>
+        </div>
+        <div class="work-card reveal" type="button" data-image="img/mv1.png" data-title="Formula One Fan Experience">
+          <span class="card-image"><img src="img/mv1.png" alt="Formula Oneファンページ" loading="lazy"></span>
+          <span class="card-top"><b>04</b><i>Fan Site</i></span>
+          <span class="card-title">Formula One Fan Experience</span><a href="../chapter4/index.html" class="link-button" target="_blank">
+            Visit Website ------>
+          </a>
+        </div>
+        <div class="work-card reveal" type="button" data-image="img/mv2.png" data-title="Racing News Interface">
+          <span class="card-image"><img src="img/mv2.png" alt="レーシングニュースページ" loading="lazy"></span>
+          <span class="card-top"><b>05</b><i>Editorial UI</i></span>
+          <span class="card-title">Racing News Interface</span><a href="../chapter4/news.html" class="link-button" target="_blank">
+            Visit Website ------>
+          </a>
+        </div>
+      </div>
+
+      <div class="yokohama-head reveal">
+        <p>YOKOHAMA AFTER DARK</p>
+        <h3>Where I Live</h3>
+        <p>横浜の夜を切り取った、観光ビジュアルコレクション。</p>
+      </div>
+      <div class="photo-grid">
+        <button class="photo reveal" data-image="css/images/cosmo-night.jpg" data-title="Cosmo World"><img src="css/images/cosmo-night.jpg" alt="夜のコスモワールド" loading="lazy"><span>Cosmo World</span></button>
+        <button class="photo photo-tall reveal" data-image="css/images/tower-night.jpg" data-title="Marine Tower"><img src="css/images/tower-night.jpg" alt="夜の横浜マリンタワー" loading="lazy"><span>Marine Tower</span></button>
+        <button class="photo reveal" data-image="css/images/redbrick-night.jpg" data-title="Red Brick Warehouse"><img src="css/images/redbrick-night.jpg" alt="夜の赤レンガ倉庫" loading="lazy"><span>Red Brick</span></button>
+        <button class="photo reveal" data-image="css/images/sea-night.jpg" data-title="Yokohama Bay"><img src="css/images/sea-night.jpg" alt="横浜港の夜景" loading="lazy"><span>Yokohama Bay</span></button>
+        <button class="photo photo-wide reveal" data-image="css/images/queens-night.webp" data-title="Queen's Square"><img src="css/images/queens-night.webp" alt="夜のクイーンズスクエア" loading="lazy"><span>Queen's Square</span></button>
+        <button class="photo reveal" data-image="css/images/museum-night.jpg" data-title="Museum"><img src="css/images/museum-night.jpg" alt="夜のミュージアム" loading="lazy"><span>Museum</span></button>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-head reveal">
+        <p class="section-number">03</p>
+        <h2>Skills &amp; approach</h2>
+        <p>できること</p>
+      </div>
+      <div class="skill-list">
+        <article class="skill-row reveal"><p>01</p><h3>HTML / CSS</h3><span>レスポンシブで、読みやすく、保守しやすいページを構築します。</span><b>Front-end</b></article>
+        <article class="skill-row reveal"><p>02</p><h3>JavaScript</h3><span>サイトに自然な動きと、わかりやすい操作性を加えます。</span><b>Interaction</b></article>
+        <article class="skill-row reveal"><p>03</p><h3>UI Design</h3><span>情報の優先順位を整理し、目的に合う画面をデザインします。</span><b>Figma / XD</b></article>
+        <article class="skill-row reveal"><p>04</p><h3>Visual Design</h3><span>写真・タイポグラフィ・色を組み合わせ、世界観を形にします。</span><b>Ps / Ai</b></article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <p class="eyebrow reveal">LET'S CREATE SOMETHING</p>
+      <h2 class="reveal">Have a project<br>in mind?</h2>
+      <p class="reveal">制作のご相談やご連絡はメール、またはSNSからどうぞ。</p>
+      <div class="contact-links reveal">
+        <a href="mailto:baynabaynjrgl@gmail.com">Email <span>↗</span></a>
+        <a href="https://www.instagram.com/darkly________/" target="_blank" rel="noopener noreferrer">Instagram <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#top">Darklyy</a>
+    <p>© <span id="year">2026</span> Darklyy. All rights reserved.</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox">
+    <button class="lightbox-close" type="button" aria-label="閉じる">×</button>
+    <img src="" alt="">
+    <p></p>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
