@@ -280,6 +280,28 @@ button {
   color: var(--sea)!important
 }
 
+.about {
+  color: #e8f1f0
+}
+
+.about .section-head {
+  border-color: rgba(232,241,240,.22)
+}
+
+.about .section-head p,
+.about .facts dt {
+  color: #9fb2b4
+}
+
+.about .section-number,
+.about-lead em {
+  color: #52cbd0!important
+}
+
+.about .facts div {
+  border-color: rgba(232,241,240,.22)
+}
+
 .about-grid {
   display: grid;
   grid-template-columns: 1.1fr .9fr;
